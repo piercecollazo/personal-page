@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import Axolotl1 from '../img/axolotl-1.jpg'
-import Axolotl2 from '../img/axolotl-2.jpg'
-import Axolotl3 from '../img/axolotl-3.jpg'
+import github from '../img/github.jpg'
+import linkedin from '../img/linkedin.jpg'
+import trivia from '../img/trivia.jpg'
 
 export default class Nav extends Component{
 
@@ -11,14 +11,28 @@ export default class Nav extends Component{
             <div className="container-fluid p-0">
               <div className="row no-gutters">
                 <div className="col-lg-4 col-sm-6">
-                  <a className="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-                    <img className="img-fluid" src={Axolotl1} alt=""></img>
+                  <a className="portfolio-box" href="https://github.com/piercecollazo">
+                    <img className="img-fluid" src={github} alt=""></img>
                     <div className="portfolio-box-caption">
                       <div className="project-category text-white-50">
-                        Category
+                        Portfolio
                       </div>
                       <div className="project-name">
-                        Project Name
+                        Check out my github!
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div className="col-lg-4 col-sm-6">
+                  <a className="portfolio-box" href="https://www.linkedin.com/in/piercecollazo/">
+                    <img className="img-fluid" src={linkedin} alt=""></img>
+                    <div className="portfolio-box-caption">
+                      <div className="project-category text-white-50">
+                        History
+                      </div>
+                      <div className="project-name">
+                        Connect with me on Linkedin!
                       </div>
                     </div>
                   </a>
@@ -26,27 +40,13 @@ export default class Nav extends Component{
 
                 <div className="col-lg-4 col-sm-6">
                   <a className="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-                    <img className="img-fluid" src={Axolotl2} alt=""></img>
+                    <img className="img-fluid" src={trivia} alt=""></img>
                     <div className="portfolio-box-caption">
                       <div className="project-category text-white-50">
-                        Category
+                        Latest project
                       </div>
                       <div className="project-name">
-                        Placeholder Project 2
-                      </div>
-                    </div>
-                  </a>
-                </div>
-
-                <div className="col-lg-4 col-sm-6">
-                  <a className="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-                    <img className="img-fluid" src={Axolotl3} alt=""></img>
-                    <div className="portfolio-box-caption">
-                      <div className="project-category text-white-50">
-                        Category
-                      </div>
-                      <div className="project-name">
-                        Placeholder Project 3
+                        Play React trivia!
                       </div>
                     </div>
                   </a>

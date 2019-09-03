@@ -6,6 +6,7 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import About from './components/About'
 import Header from './components/Header'
+import Skills from './components/Skills'
 
 class App extends React.Component {
 
@@ -16,6 +17,7 @@ class App extends React.Component {
         <Nav />
         <Header />
         <About />
+        <Skills />
         <Portfolio />
         <Contact />
       </div>
