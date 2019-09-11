@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import github from '../img/github.jpg'
 import linkedin from '../img/linkedin.jpg'
-import trivia from '../img/trivia.jpg'
+import ISS from '../img/ISS.jpg'
 
 export default class Nav extends Component{
 
@@ -40,13 +40,13 @@ export default class Nav extends Component{
 
                 <div className="col-lg-4 col-sm-6">
                   <a className="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-                    <img className="img-fluid" src={trivia} alt=""></img>
+                    <img className="img-fluid" src={ISS} alt=""></img>
                     <div className="portfolio-box-caption">
                       <div className="project-category text-white-50">
                         Latest project
                       </div>
                       <div className="project-name">
-                        Play React trivia!
+                        ISS Intercept
                       </div>
                     </div>
                   </a>

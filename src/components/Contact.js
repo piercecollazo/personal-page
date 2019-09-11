@@ -15,10 +15,12 @@ export default class Nav extends Component{
                     </div>
                   </div>
                   <div className="row">
+                  <div className="col-lg-4 mr-auto text-center"></div>
                     <div className="col-lg-4 mr-auto text-center">
-                      <i className="fas fa-envelope fa-3x mb-3 text-muted"></i>
+                    <a href="mailto:piercecollazo@gmail.com"><i class="material-icons">email</i></a>
                       <a className="d-block" href="mailto:piercecollazo@gmail.com">piercecollazo@gmail.com</a>
                     </div>
+                    <div className="col-lg-4 mr-auto text-center"></div>
                   </div>
                 </div>
             </section>
